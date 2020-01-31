@@ -1,0 +1,171 @@
+# Changelog_OLD
+All changes to this project on version 1.1831 or before will be documented in this file. For change log after version 1.1831, please find in [CHANGELOG.md].
+
+## 1.1831 or before
+- Version: **1.1831**
+  - GNU license inserted
+- Version: **1.183**
+  - Small changes and user requests.
+  - Some translations in the building tab still have to be made.
+- Version: **1.182**
+  - Fix: Research points are displayed correctly
+  - Fix: Tooltips in the military tab are translated again, Note: translations must be pushed
+  - Fix: keyboard navigation adapted for Chrome
+- Version: **1.181**
+  - added: new Version
+- Version: **up 1.170 to 1.180**
+  - Thanks to Ariston for his work on EO
+- Version: **1.170**
+  - Fix: update query now works under Greasy Fork
+  - Fix: max. Action points and max. researchers
+- Version: **1.169**
+  - Fix: EO now works with Chrome
+- Version: **1.168**
+  - Fix: EO now works with FF version 30 or higher. Note! does not work with GM version 2.0
+  - Change: Branch Office adapted to Level 39
+- Version: **1.167**
+  - various translations and changes
+- Version: **1.1662**
+  - small changes
+- Version: **1.1661**
+  - oops, faulty upload, sorry
+- Version: **1.166**
+  - Feature: No piracy, if you have researched piracy is given you the option to disable this. The Pirate Plot is removed.
+  - Bug fix: If you can not build a palace yet, the number of citizens was displayed incorrectly
+- Version: **1.165**
+  - Improvement Greek translation (Thx Panagiotis Papazoglou for Translation, Added option: Hide animated citizens and transport ships in island and city view
+- Version: **1.164**
+  - imported from userscripts.com
+  - fixed: small errors
+- Version: **1.163**
+  - Change: with Shift + 1,2,3,4,5 all tabs (Ress, buildings, Army, Settings and Help) selectable,
+Player vs. Player can be hidden with option "Hide events"
+- Version: **1.162**
+  - Improved translation Arabic (Thx Hayato500 for Translation)
+  - Fix: Wine warning can be turned off
+  - Fix: Tooltip (needed resources and time) Museum at level 20 will now be displayed
+- Version: **1.1613**
+  - Fix: Trial version for Arab Server
+- Version: **1.1612**
+  - Fix: for iranian server
+- Version: **1.1611**
+  - oops, correction error Update
+- Version: **1.161**
+  - Added: Dutch language (Thx Edel1965 for Translation)
+- Version: **1.1601**
+  - Trial version for iranian server
+- Version: **1.160**
+  - Fix: Latvian server
+  - Fix: various server display in training units of the time was not displayed correctly on 24h
+  - Changes: Translation language turkish
+- Version: **1.1592**
+  - Fix: Greek servers should work again
+- Version: **1.1591**
+  - improved translations
+- Version: **1.159**
+  - Fix: branch office Level 26, the marble displayed correctly
+  - Fix: translations at date has been improved
+  - Fix: display total income has been improved
+  - Fix: various translations adapted
+  - Added: confirm option automatically daily bonus
+  - Added: Option to disable login window
+  - IkaLogs reactivated
+- Version: **1.1581**
+  - Fix: IkaLogs temporarily disabled
+- Version: **1.158**
+  - Changes: Disable to display of troops and fleet movements to their own cities. The BUG is therefore inactive.
+Various updates of languages. Changed display gold.
+When a reset or reinstalling now the language of the country is displayed. Not installed languages = default English
+- Version: **1.157**
+  - Fix: thousand separator is also displayed at horly Resources on Non German servers. Key codes updated for city 1-12. Various update of translations.
+  - Added: new settings in Setting Tab
+- Version: **1.156**
+  - Added compressed list of buildings
+- Version: **1.155**
+  - Fix: various corrections of the translation, trial keymap cities 1-12
+- Version: **1.154**
+  - Fix: translations, hotkeys and small errors
+- Version: **1.153**
+  - Fix: in the Army Tab, when pressing on the fleets icons was displayed of the Army sprite
+  - Bugfix: Warserver, Display gold plunder and trade now work correctly
+  - various small bugs, renewed translation
+- Version: **1.152**
+  - Fix: Hotkeys town 1-12 (test version), added: Option Hide Controlcenter, BUG Fix: Warserver non german, plunder gold should be displayed correctly; Resources should be displayed in the correct order in the tooltip building Tab
+- Version: **1.1513**
+  - Fix: "hourly resources" display problem Resource income > 1000
+- Version: **1.1512**
+  -Spartans added, version without player info
+- Version: **1.1511**
+  - Spartans added, version with player info
+- Version: **1.1502**
+  - Player Info activated for private purposes. BUG in Chrome actively
+- Version: **1.150**
+  - Bugfix: War Server - research points, time for building expanding and travel time merchant ships are displayed correctly
+- Version: **1.149**
+  - Changes: trade and plunder gold is now displayed, activated Ambrosia bonuses are displayed in the tooltip
+- Version: **1.148**
+  - Bugfix: new Acc. and not a palace (population, happiness and growth are now displayed correctly), Display problem in Chrome when extension time building
+  - fixed: Fixed various displays in the tooltip
+- Version: **1.147**
+  - Bugfix: Aristocracy and Pirat Fortress
+- Version: **1.146**
+  - added: Turkish language (Thx Tyrant for Translation), corrected issue with use of Enhanced UI and hourly resources
+- Version: **1.1451**
+  - Update reloaded: faulty transmission ago
+- Version: **1.145**
+  - added: Language Portuguese (Thx mosca_fly for Translation) and corrected spanish language (Thx Max783 for Translation)
+  - added: new features in SettingTab (hide news ticker, hide birdswarm, hide events, hide hourly resources and use IkaLog Battle Report Converter)
+  - fixed: bug in BuildingTab, the expansion of the building to max. the expansion time is now displayed
+  - disabled: Player Info - there is a problem with Chrome in the pirate fortress
+- Version: **1.144**
+  - added: Information about players in the island view
+- Version: **1.143**
+  - added: Language Arabian (Thx AbdelKarimCI for Translation) and Language Persian (Thx SHAB_RO for Translation), Info in ResTab "building will be expanded", Display total for expenses of army and war ships in the ArmyTab. Fixed: Time for Black Market
+- Version: **1.142**
+  - added: Language Polish (Thx Komandos for Translation)
+- Version: **1.141**
+  - Bugfix: Black Market
+- Version: **1.140**
+  - change to ikariam.gameforge.
+- Version: **1.139**
+  - Adaptation to War Server, Correction Czech Translation
+- Version: **1.138**
+  - added: Language Czech (Thx Ikariam CZ for Translation)
+- Version: **1.137**
+  - Bugfix: after the last update was no longer possible to move cities
+- Version: **1.136**
+  - added: Language russian (Thx Toxa13 for Translation)
+- Version: **1.135**
+  - Bugfix: "Empire Overview" does not work when there Xenocracy. (Note: Screen not work correctly if the capital is occupied. Xenocracy is not configured properly.)
+- Version: **1.134**
+  - Bugfix: when you go to the tab "world map", which is no longer deleted BuildingTab
+- Version: **1.133**
+  - Romanian translation correction. changed display growth.
+- Version: **1.132**
+  - added: Language romanian (Thx corectsunt for Translation)
+- Version: **1.131**
+  - added: Language french (Thx randalph for Translation)
+- Version: **1.130**
+  - added: simple translation for tooltips, help table and setting table. Languages: English, German, Italian, Greek and Spanish.
+- Version: **1.129**
+  - Changelog / update version 0.5.6, fixed: error icon links, display error in the Help and Settings tab, display error Total Wineconsum
+- Version: **1.128**
+  - fixed: Error on the display growth in total and Amy tab in the absence of barracks and shipyards
+- Version: **1.127**
+  - fixed issues with actions points
+- Version: **1.126**
+  - some bugs fixed, Preparation of new features
+- Version: **1.125**
+  - cost for Barracks corrected
+- Version: **1.124**
+  - Error templetview mine and sawmill resolved
+- Version: **1.123**
+  - added Pirate Fortress
+- Version: **1.122**
+  - ready for Fire Fox 17 or higher
+- Version: **1.121**
+  - elimination of small errors
+- Version: **1.120**
+  - Fix: for Testserver V.0.5.2.7
+
+[CHANGELOG.md]: https://github.com/IkariamPro/empire-overview/blob/master/CHANGELOG.md
