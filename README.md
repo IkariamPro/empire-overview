@@ -1,6 +1,8 @@
 # Empire Overview
 Script that provides Overview tables for resources, buildings, and military for the web game Ikariam v8.1.x
 
+**Please Note: I don't own this project, just try the best to keep this project alive for continuing game players.**
+
 Starting code base: https://greasyfork.org/en/scripts/764-empire-overview
 
 ### **!!! Install at your own risk !!!**
@@ -23,6 +25,6 @@ Does not work with GM version 2.0 or higher and Firefox
 In case of problems please perform a reset in the tab "Settings".
 
 ### History:
-Please find change log in [CHANGELOG.md]
+Please find changelog in [CHANGELOG.md]
 
 [CHANGELOG.md]: https://github.com/IkariamPro/empire-overview/blob/master/CHANGELOG.md
