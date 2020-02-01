@@ -961,7 +961,7 @@
     this._tradeGoodID = 0;
     this.knownTime = $.now();
     this._lastPopUpdate = $.now();
-    this._buildings = new Array(19);
+    this._buildings = new Array(20);
     var i = this._buildings.length;
     while (i--) {
       this._buildings[i] = new Building(this, i);
@@ -1347,7 +1347,7 @@
     },
     get getAvailableBuildings() {
       var p = 0;
-      var i = 17 + database.getGlobalData.getResearchTopicLevel(Constant.Research.Economy.BUREACRACY) + database.getGlobalData.getResearchTopicLevel(Constant.Research.Seafaring.PIRACY);
+      var i = 18 + database.getGlobalData.getResearchTopicLevel(Constant.Research.Economy.BUREACRACY) + database.getGlobalData.getResearchTopicLevel(Constant.Research.Seafaring.PIRACY);
       $.each(this.getBuildings, function (idx, building) {
         i -= !building.isEmpty;
       });
