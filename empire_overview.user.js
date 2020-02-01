@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                Empire Overview
-// @author              germano / 1.17 to 1.18 by Ariston /up 1.18 germano
+// @author              germano / 1.17 to 1.18 by Ariston / 1.18 germano / up 1.20 thomasccm
 // @description         Script for Ikariam 0.7.x, Overview tables for resources, buildings and military inspired by Ikariam Empire Board
 // @namespace           Beta
 // @grant               unsafeWindow
@@ -19,7 +19,7 @@
 // @require             https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
 // @require             https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js
 //
-// @version             1.1831
+// @version             1.20
 //
 // @license             GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // ==/UserScript==
@@ -2363,16 +2363,16 @@
           return '';
         }
         function getBuildingTooltip(building) {
-          var uConst = building.isUpgrading;
-          var resourceCost = building.getUpgradeCost;
+          var uConst = (typeof building !== "undefined") ? building.isUpgrading : false;
+          var resourceCost = (typeof building !== "undefined") ? building.getUpgradeCost : {};
           var serverTyp = 1;
           if (ikariam.Server() == 's201' || ikariam.Server() == 's202') serverTyp = 3;
           var elem = '';
           var time = 0;
           var needlevel = 0;
           var costlevel = 0;
-          needlevel = building.getLevel + 2;
-          costlevel = building.getLevel + 1;
+          needlevel = (typeof building !== "undefined") ? building.getLevel + 2 : 2;
+          costlevel = (typeof building !== "undefined") ? building.getLevel + 1 : 1;
           for (var key in resourceCost) {
             if (key == 'time') {
               time = '<tr class="total"><td><img src="skin/resources/icon_time.png" style="height: 11px; float: left;"></td><td colspan="2" ><i>(' + Utils.FormatTimeLengthToStr(resourceCost[key] / serverTyp, 3, ' ') + ')</i></td></tr>';
