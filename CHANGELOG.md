@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project after version v1.1831 will be documented in this file. For change log on or before 1.1831, please find in [CHANGELOG_OLD.md].
 
+## [1.21] - 2020-05-26
+
+### Changed
+
+- Change building requirement array
+- Change README.md
+
 ## [1.20] - 2019-02-01
 
 ### Changed
